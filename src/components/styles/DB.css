@@ -1,0 +1,40 @@
+.db-header {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 0px 10px;
+  background-color: black;
+  color: white;
+}
+
+.colour-title {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.colour-container {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+
+.colours {
+  height: 20vw;
+  width: 80vw;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.colour-div {
+  position: absolute;
+  border: none;
+  border-radius: 20px;
+  height: 90%;
+  width: 15%;
+  transition: transform 0.2s;
+}
+
+.colour-div:hover {
+  transform: translateY(-10%);
+  border: white 2px solid;
+}
